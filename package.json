@@ -1,7 +1,37 @@
 {
   "dependencies": {
     "@openzeppelin/contracts": "^4.8.3",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "koa": "^2.14.2",
+    "koa-router": "^12.0.0",
     "solc": "^0.8.19",
     "web3": "^1.9.0"
+  },
+  "name": "cashcrow",
+  "description": "Blockchain based waste management and rewarding system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Metaphor00/CashCrow.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Metaphor00/CashCrow/issues"
+  },
+  "homepage": "https://github.com/Metaphor00/CashCrow#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.21.8",
+    "@babel/node": "^7.20.7",
+    "@babel/preset-env": "^7.21.5"
   }
 }
